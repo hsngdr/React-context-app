@@ -1,0 +1,12 @@
+.dark {
+  background-color: rgb(70, 69, 68);
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+}
+.light {
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+  height: 100vh;
+}
