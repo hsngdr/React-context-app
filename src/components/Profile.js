@@ -28,7 +28,12 @@ function Profile() {
       )}
       <br />
       <br />
-      {JSON.stringify(user)}
+      {user && (
+        <div>
+          <h1>{user.username}</h1>
+          <p>{user.bio}</p>
+        </div>
+      )}
       <br />
       <br />
       {user && <button onClick={() => setUser(null)}>Logout</button>}
