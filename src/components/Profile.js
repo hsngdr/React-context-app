@@ -10,8 +10,8 @@ function Profile() {
     setTimeout(() => {
       setUser({
         id: 1,
-        username: "admin",
-        bio: "admsdasdin",
+        username: "You",
+        bio: "I am a user",
       });
       setLoading(false);
     }, 1500);
